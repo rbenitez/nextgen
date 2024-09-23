@@ -1,0 +1,43 @@
+/* frontend/src/ChapterView.css */
+
+.chapter-view {
+    padding: 20px;
+    background-color: #FFF4E0;
+    border: 2px solid #D2691E;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .chapter-view h2 {
+    color: #8B4513;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .script-content {
+    white-space: pre-wrap;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #4A403A;
+  }
+  
+  .chapter-view button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .chapter-view button:hover {
+    background-color: #E07A5F;
+  }
+  

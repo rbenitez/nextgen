@@ -1,0 +1,38 @@
+/* frontend/src/ChapterSelection.css */
+
+.chapter-selection {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF4E0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .chapter-selection h2 {
+    color: #8B4513;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .chapter-selection button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .chapter-selection button:hover {
+    background-color: #E07A5F;
+    transform: scale(1.05);
+  }
+  

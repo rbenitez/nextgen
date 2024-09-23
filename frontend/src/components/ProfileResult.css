@@ -1,0 +1,52 @@
+/* frontend/src/ProfileResult.css */
+
+.profile-result {
+    padding: 20px;
+    border: 2px solid #D2691E;
+    border-radius: 10px;
+    background-color: #FFF4E0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 700px;
+  }
+  
+  .profile-result h2 {
+    color: #8B4513;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .profile-result p {
+    font-size: 1.1em;
+    color: #4A403A;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .chapter-selection {
+    margin-top: 20px;
+  }
+  
+  .chapter-selection h3 {
+    color: #D2691E;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .chapter-selection button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .chapter-selection button:hover {
+    background-color: #E07A5F;
+  }
+  
